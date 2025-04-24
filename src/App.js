@@ -3,9 +3,9 @@ import './App.css'
 import Timer from './components/Timer'
 import { SITETITLE, TitleEnum } from './enums/TitlesEnum'
 
-const WORK = 3
-const LONGBREAK = 2
-const SHORTBREAK = 1
+const WORK = 25
+const LONGBREAK = 15
+const SHORTBREAK = 5
 const bell = new Audio('bell.mp3')
 bell.volume = 0.2
 

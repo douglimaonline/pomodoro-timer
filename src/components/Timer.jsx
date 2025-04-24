@@ -5,7 +5,7 @@ const Timer = ({ time, endTimer }) => {
   const [totalSeconds, setTotalSeconds] = useState(0)
 
   useEffect(() => {
-    setTotalSeconds(time * 1)
+    setTotalSeconds(time * 60)
   }, [time])
 
   useEffect(() => {
