@@ -1,0 +1,33 @@
+.Timer {
+  position: relative;
+  display: inline-block;
+}
+
+.Timer img {
+  display: block;
+}
+
+.Timer h2 {
+  font-size: 2.3rem;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Controls {
+  display: flex;
+  width: 60vh;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.Controls button {
+  font-size: medium;
+  font-weight: 600;
+  color: #379b46;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10%;
+}
